@@ -84,7 +84,7 @@ for ur in datasets:
 database = IP2Location.IP2Location()
 
 #will upload this bin file to Bandit Deployments/Data Analysis folder on google drive! Pls find there and import into this (lets also figure out how to streamline this for later)
-database.open("IP2LOCATION-LITE-DB3.BIN")
+database.open("C:/Users/Public/PYTHON_PROJECTS/MHA_data/IP2LOCATION-LITE-DB3.BIN")
 
 new_data = []
 for ur in datasets:
